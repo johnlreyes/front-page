@@ -2,10 +2,10 @@ baseURL = "http://johnlreyes.github.io/front-page"
 languageCode = "en-US"
 title = "John L. Reyes"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "xxxxxxxxxxxxxxxx"
+disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
-theme = "hugo-sustain"
+theme = "hugo-sustain-modified"
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
