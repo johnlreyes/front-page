@@ -1,0 +1,37 @@
+baseURL = "http://johnlreyes.github.io/front-page"
+languageCode = "en-US"
+title = "John L. Reyes"
+# Enable comments by entering your Disqus shortname
+disqusShortname = "xxxxxxxxxxxxxxxx"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "profile.jpg"
+  author = "John L. Reyes"
+  description = "Front page"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "johnlreyes"
+  Email         = "johnlreyes@yahoo.com"
+  LinkedIn      = "johnlreyes"
+
+## Main Menu
+[[menu.main]]
+  name = "resume-HTML"
+  identifier = "resume-HTML"
+  weight = 300
+  url = "http://johnlreyes.gitlab.io/resume/resume.html"
+[[menu.main]]
+  name = "resume-PDF"
+  identifier = "resume-PDF"
+  weight = 300
+  url = "http://johnlreyes.gitlab.io/resume/resume.pdf"
