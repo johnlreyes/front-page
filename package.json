@@ -1,0 +1,14 @@
+{
+  "name": "johnlreyes_front_page",
+  "version": "0.0.1",
+  "description": "johnlreyes front page",
+  "keywords": [
+    "johnlreyes",
+    "front-page"
+  ],
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-htmlmin": "^2.4.0",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
