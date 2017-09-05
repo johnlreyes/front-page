@@ -1,7 +1,7 @@
 
-var enableLogs = true;
+var enableLogs = false;
 var cacheName = 'offline';
-var version = '0906171213PM';
+var version = '0906171228PM';
 var cache = cacheName + '-' + version;
 var fileList = [
     'index.html',
